@@ -12,7 +12,7 @@ $ export FLASK_DEBUG=1
 $ flask run
 ```
 If you are on Windows you need to use `set` instead of `export`.
-The last command will launch the local server.
+The last command will launch the local server. For Windows use $ python -m flask run
 - Check to see if the server is running by visiting http://localhost:5000 in your browser and you should see "Hello, World!"
 - If the server is not running or if there are any issues, the following [guide](http://flask.pocoo.org/docs/0.12/quickstart/#quickstart) may be helpful.
 
